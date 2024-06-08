@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MÁSTER-MicroserviciosAbr24.master-springboot-finalProject.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MÁSTER-MicroserviciosAbr24.master-springboot-finalProject.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/master-springboot-finalProjectM2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/master-springboot-finalProjectM2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/monorepo-finalProject.iml" filepath="$PROJECT_DIR$/.idea/monorepo-finalProject.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>INFORMACIÓN FINANCIERA</title>
+    </meta>
+</head>
+<body>
+<h1>INFORMACIÓN FINANCIERA</h1>
+<h2>Información del Usuario</h2>
+<p>Nombre: <span th:text="${responseDto.userDto.firstName}"></span></p>
+<p>Apellido: <span th:text="${responseDto.userDto.lastName}"></span></p>
+<p>Usuario: <span th:text="${responseDto.userDto.userName}"></span></p>
+<p>Identificación Oficial: <span th:text="${responseDto.userDto.identificationNumber}"></span></p>
+
+<h2>Información de la Cuenta</h2>
+<p>Número de Cuenta: <span th:text="${responseDto.accountDto.accountUser}"></span></p>
+<p>Número de Tarjeta: <span th:text="${responseDto.accountDto.cardUser}"></span></p>
+<p>Saldo Cuenta $$: <span th:text="${responseDto.accountDto.accountBalance}"></span></p>
+<p>Fecha Apertura: <span th:text="${responseDto.accountDto.createdAt}"></span></p>
+</body>
+</html>
